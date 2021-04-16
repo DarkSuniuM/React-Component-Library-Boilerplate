@@ -40,8 +40,8 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
+    "dev": "start-storybook -p 6006",
+    "build:showcase": "build-storybook",
     "build": "rollup --config",
     "test": "jest"
   },
